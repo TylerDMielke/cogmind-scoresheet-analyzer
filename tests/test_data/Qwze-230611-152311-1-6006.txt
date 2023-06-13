@@ -1,0 +1,740 @@
+Cogmind - Beta 12 *** ADVENTURER MODE // 2023.06.11 @ 15:23:11
+
+Player: Qwze
+
+Result: Self-destructed
+
+ Performance 
+-------------
+Evolutions (4)             2000
+Regions Visited (7)        1400
+Robots Destroyed (61)      305
+Value Destroyed (1898)     1898
+Prototype IDs (3)          60
+Alien Tech Used (0)        0
+Bonus (343)                343
+              TOTAL SCORE: 6006
+
+ Bonus
+-------
+Pacifist                   200
+High Alert Combat Kills    143
+
+ Cogmind 
+---------
+Core Integrity             709/850
+Matter                     55/300
+Energy                     100/100
+System Corruption          0%
+Temperature                Cool (0)
+Movement                   Core (50)
+Location                   -6/Factory
+
+ Parts 
+-------
+>          --- POWER (2) --------
+               (None)
+>          --- PROPULSION (5) ---
+               (None)
+>          --- UTILITY (5) ------
+               (None)
+>          --- WEAPON (3) -------
+               (None)
+>          --- INVENTORY (5) ----
+           VSS Leg
+           VSS Leg
+  Improved Lightning Gun
+           Plasma Rifle
+     Heavy Ion Cannon
+
+ Peak State 
+------------
+>          --- POWER ------------
+     Micro Nuclear Core
+           Fission Core
+>          --- PROPULSION -------
+           Wheel
+           Wheel
+           Wheel
+           Wheel
+   Compact Wheel
+>          --- UTILITY ----------
+     Large Storage Unit
+   Compact Battery
+           Targeting Computer
+           Reaction Control System
+           Recalibrator
+>          --- WEAPON -----------
+  Advanced Beam Rifle
+     Heavy Ion Cannon
+  Advanced Assault Cannon
+>          --- INVENTORY --------
+           Fission Core
+           Wheel
+           Wheel
+     Small Storage Unit
+  Improved Lightning Gun
+           Flak Cannon
+           Rocket Launcher
+[Rating: 39]
+
+ Favorites 
+-----------
+Power                      Micro Nuclear Core
+  Engine                   Ion Engine
+  Power Core               Micro Nuclear Core
+Propulsion                 Wheel
+  Leg                      Aluminum Leg
+  Wheel                    Wheel
+Utility                    Large Storage Unit
+  Device                   Reaction Control System
+  Storage                  Large Storage Unit
+  Processor                Targeting Computer
+  Protection               Hardened Light Armor Plating
+Weapon                     Spread Laser
+  Energy Gun               Spread Laser
+  Energy Cannon            Particle Cannon
+  Ballistic Gun            Assault Rifle
+  Ballistic Cannon         Advanced Assault Cannon
+  Launcher                 Rocket Launcher
+  Special Weapon           Welding Torch
+
+ Build                          | -11 -10 -10 -9  -9  -8  -7  -6  
+-------                    Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Slots Evolved              8    | .   .   .   2   .   2   2   2   
+  Power                    1    | .   .   .   .   .   .   .   1   
+  Propulsion               3    | .   .   .   1   .   .   1   1   
+  Utility                  3    | .   .   .   1   .   1   1   .   
+  Weapon                   1    | .   .   .   .   .   1   .   .   
+Parts Attached             64   | 6   3   .   8   2   8   6   31  
+  Power                    8    | 1   .   .   .   .   1   1   5   
+    Engine                 3    | 1   .   .   .   .   .   .   2   
+    Core                   5    | .   .   .   .   .   1   1   3   
+    Reactor                .    | .   .   .   .   .   .   .   .   
+  Propulsion               17   | 2   .   .   2   .   3   1   9   
+    Treads                 .    | .   .   .   .   .   .   .   .   
+    Leg                    2    | .   .   .   1   .   .   .   1   
+    Wheel                  15   | 2   .   .   1   .   3   1   8   
+    Hover                  .    | .   .   .   .   .   .   .   .   
+    Flight                 .    | .   .   .   .   .   .   .   .   
+  Utility                  15   | 1   1   .   3   .   2   3   5   
+    Device                 4    | .   .   .   .   .   1   1   2   
+    Storage                6    | 1   .   .   1   .   .   1   3   
+    Processor              1    | .   .   .   1   .   .   .   .   
+    Hackware               .    | .   .   .   .   .   .   .   .   
+    Protection             4    | .   1   .   1   .   1   1   .   
+    Artifact               .    | .   .   .   .   .   .   .   .   
+  Weapon                   24   | 2   2   .   3   2   2   1   12  
+    Energy Gun             7    | .   1   .   2   .   1   1   2   
+    Energy Cannon          3    | .   .   .   1   .   1   .   1   
+    Ballistic Gun          3    | 2   .   .   .   1   .   .   .   
+    Ballistic Cannon       4    | .   .   .   .   .   .   .   4   
+    Launcher               6    | .   .   .   .   1   .   .   5   
+    Special Weapon         1    | .   1   .   .   .   .   .   .   
+    Impact Weapon          .    | .   .   .   .   .   .   .   .   
+    Slashing Weapon        .    | .   .   .   .   .   .   .   .   
+    Piercing Weapon        .    | .   .   .   .   .   .   .   .   
+    Special Melee Weapon   .    | .   .   .   .   .   .   .   .   
+  Unidentified Prototypes  3    | .   .   .   1   .   .   1   1   
+Parts Lost                 14   | .   .   .   1   .   .   2   11  
+  Power                    2    | .   .   .   .   .   .   .   2   
+  Propulsion               6    | .   .   .   .   .   .   .   6   
+  Utility                  4    | .   .   .   .   .   .   2   2   
+  Weapon                   2    | .   .   .   1   .   .   .   1   
+  Highest Loss Streak      8    | .   .   .   1   .   .   2   8   
+  To Critical Strikes      .    | .   .   .   .   .   .   .   .   
+Average Slot Usage (%)     93   | .   100 100 96  100 100 99  79  
+  Engine                   4    | .   14  14  11  11  .   .   .   
+  Core                     5    | .   .   .   .   .   8   7   10  
+  Wheel                    27   | .   28  28  28  33  27  30  24  
+  Device                   5    | .   .   .   .   .   8   14  7   
+  Storage                  10   | .   14  14  11  11  9   7   11  
+  Processor                7    | .   .   .   9   11  9   7   5   
+  Protection               7    | .   14  14  11  11  9   7   .   
+  Energy Gun               8    | .   4   .   7   11  12  14  5   
+  Energy Cannon            4    | .   .   .   6   2   5   7   3   
+  Ballistic Gun            4    | .   18  14  4   7   9   .   .   
+  Ballistic Cannon         1    | .   .   .   .   .   .   .   5   
+  Special Weapon           1    | .   6   14  2   .   .   .   .   
+Naked Turns                51   | .   .   .   .   .   .   .   51  
+Heaviest Build             62   | 14  17  16  37  37  42  46  62  
+  Greatest Support         62   | 20  20  20  36  36  42  52  62  
+  Greatest Overweight (x)  16   | 1   .   .   1   1   1   .   16  
+  Average Overweight (x)   .    | .   .   .   .   .   .   .   .   
+Largest Inventory Capacity 15   | 8   8   8   15  15  15  15  15  
+  Average Capacity         13   | 7   8   8   14  15  15  15  13  
+  Most Carried             15   | 4   6   6   9   10  15  12  9   
+  Average Carried          7    | 2   4   6   7   9   11  9   5   
+  Final Capacity           15   | 8   8   8   15  15  15  15  5   
+  Final Carried            13   | 4   6   6   9   10  13  9   5   
+
+ Class Distribution 
+--------------------
+ 45% | Mutant
+ 33% | Gunner
+ 12% | Tank
+  8% | Scavenger-Gunner
+
+ Dominant Class 
+----------------
+ Mutant | -10/Materials
+ Mutant | -10/Mines
+ Mutant | -9/Materials
+ Mutant | -9/Mines
+ Gunner | -8/Materials
+   Tank | -7/Factory
+ Gunner | -6/Factory
+
+ Resources                      | -11 -10 -10 -9  -9  -8  -7  -6  
+-----------                Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Matter Collected           974  | 239 31  .   146 45  137 52  324 
+  Remotely                 .    | .   .   .   .   .   .   .   .   
+Salvage Created            1801 | .   .   .   588 64  433 127 589 
+  Parts                    108  | .   .   .   44  2   25  5   32  
+Haulers Intercepted        1    | .   .   .   1   .   .   .   .   
+Recyclers Shooed           1    | .   .   .   .   .   1   .   .   
+Parts Field Recycled       .    | .   .   .   .   .   .   .   .   
+  Retrieved Matter         .    | .   .   .   .   .   .   .   .   
+Parts Self-Destructed      .    | .   .   .   .   .   .   .   .   
+  Prevented                .    | .   .   .   .   .   .   .   .   
+
+ Kills                          | -11 -10 -10 -9  -9  -8  -7  -6  
+-------                    Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Combat Hostiles Destroyed  51   | .   .   .   17  2   8   4   20  
+  Guns                     24   | .   .   .   13  1   5   4   1   
+  Cannons                  19   | .   .   .   4   .   3   .   12  
+  AOE                      8    | .   .   .   .   1   .   .   7   
+Classes Destroyed          10   | .   .   .   5   1   2   .   2   
+  Worker                   2    | .   .   .   .   .   2   .   .   
+  Builder                  2    | .   .   .   .   .   .   .   2   
+  Hauler                   1    | .   .   .   1   .   .   .   .   
+  Recycler                 2    | .   .   .   2   .   .   .   .   
+  Mechanic                 1    | .   .   .   .   .   .   .   1   
+  Watcher                  2    | .   .   .   1   .   1   .   .   
+  Swarmer                  28   | .   .   .   13  .   .   3   12  
+  Grunt                    13   | .   .   .   .   2   5   .   6   
+  Sentry                   9    | .   .   .   4   .   2   1   2   
+  Hunter                   1    | .   .   .   .   .   1   .   .   
+Best Kill Streak           10   | .   .   .   10  2   4   4   5   
+  Combat Bots Only         5    | .   .   .   4   2   3   4   5   
+Max Kills in Single Turn   4    | .   .   .   3   1   1   1   4   
+  Gunslinging              .    | .   .   .   .   .   .   .   .   
+  Exploded                 4    | .   .   .   .   1   .   .   4   
+  Melee                    .    | .   .   .   .   .   .   .   .   
+Uniques/NPCs Destroyed     .    | .   .   .   .   .   .   .   .   
+
+ Combat                         | -11  -10  -10  -9   -9   -8   -7   -6   
+--------                   Run  | Jun  Mat  Min  Mat  Min  Mat  Fac  Fac  
+Damage Taken               1938 | .    8    .    313  8    171  239  1199 
+  Core                     277  | .    .    .    77   .    29   30   141  
+  Absorbed by Shields      15   | .    .    .    .    .    .    .    15   
+Core Remaining (%)         93   | 100  .    100  .    80   94   95   .    
+Volleys Fired              94   | .    .    .    37   3    19   8    27   
+  Largest                  3    | .    .    .    2    1    3    3    3    
+  Hottest                  194  | .    .    .    133  33   153  194  174  
+Shots Fired                219  | .    .    .    63   3    57   18   78   
+  Gun                      117  | .    .    .    34   1    43   12   27   
+  Cannon                   84   | .    .    .    20   .    14   6    44   
+  Launcher                 9    | .    .    .    .    2    .    .    7    
+  Special                  9    | .    .    .    9    .    .    .    .    
+  Kinetic                  68   | .    .    .    17   1    19   .    31   
+  Thermal                  127  | .    .    .    41   .    33   18   35   
+  Explosive                9    | .    .    .    .    2    .    .    7    
+  Electromagnetic          15   | .    .    .    5    .    5    .    5    
+  Robot Hit Streak         20   | .    .    .    20   10   20   6    15   
+  Robot Miss Streak        4    | .    .    .    2    .    4    3    3    
+  Penetration Max          .    | .    .    .    .    .    .    .    .    
+  Secondary Targets        .    | .    .    .    .    .    .    .    .    
+Shots Hit Robots           164  | .    .    .    45   3    46   12   58   
+  Core Hits                157  | .    .    .    42   3    48   12   52   
+  Critical Kills           .    | .    .    .    .    .    .    .    .    
+  Critical Parts Destroyed .    | .    .    .    .    .    .    .    .    
+  Critical Strikes         10   | .    .    .    .    .    .    2    8    
+    Burn                   7    | .    .    .    .    .    .    2    5    
+    Blast                  3    | .    .    .    .    .    .    .    3    
+Melee Attacks              .    | .    .    .    .    .    .    .    .    
+  Impact                   .    | .    .    .    .    .    .    .    .    
+  Slashing                 .    | .    .    .    .    .    .    .    .    
+  Piercing                 .    | .    .    .    .    .    .    .    .    
+  Sneak Attacks            .    | .    .    .    .    .    .    .    .    
+    Combat Hostiles        .    | .    .    .    .    .    .    .    .    
+  Follow-up Attacks        .    | .    .    .    .    .    .    .    .    
+Damage Inflicted           4053 | .    .    .    736  128  758  206  2225 
+  Guns                     1542 | .    .    .    376  15   534  185  432  
+  Cannons                  1456 | .    .    .    266  .    224  21   945  
+  Explosions               1039 | .    .    .    78   113  .    .    848  
+  Melee                    .    | .    .    .    .    .    .    .    .    
+  Ramming                  .    | .    .    .    .    .    .    .    .    
+  Kinetic                  994  | .    .    .    107  15   148  .    724  
+  Thermal                  2345 | .    .    .    529  .    533  206  1077 
+  Explosive                485  | .    .    .    .    113  .    .    372  
+  Electromagnetic          229  | .    .    .    100  .    77   .    52   
+  Impact                   .    | .    .    .    .    .    .    .    .    
+  Slashing                 .    | .    .    .    .    .    .    .    .    
+  Piercing                 .    | .    .    .    .    .    .    .    .    
+Highest Corruption         .    | .    .    .    .    .    .    .    .    
+  Average Corruption       .    | .    .    .    .    .    .    .    .    
+  Corruption Purged        .    | .    .    .    .    .    .    .    .    
+  Corruption Blocked       .    | .    .    .    .    .    .    .    .    
+Overload Shots             .    | .    .    .    .    .    .    .    .    
+Overflow Damage            152  | .    .    .    .    .    .    .    152  
+  Projectiles              11   | .    .    .    .    .    .    .    11   
+  Explosions               141  | .    .    .    .    .    .    .    141  
+  Melee                    .    | .    .    .    .    .    .    .    .    
+Knockbacks                 9    | .    .    .    .    .    .    .    9    
+  Impact                   .    | .    .    .    .    .    .    .    .    
+  Kinetic                  7    | .    .    .    .    .    .    .    7    
+  Secondary                2    | .    .    .    .    .    .    .    2    
+Self-Inflicted Damage      237  | .    .    .    31   .    .    .    206  
+  Shots                    5    | .    .    .    1    .    .    .    4    
+  Rammed                   .    | .    .    .    .    .    .    .    .    
+Targets Rammed             .    | .    .    .    .    .    .    .    .    
+  Kicked                   .    | .    .    .    .    .    .    .    .    
+  Crushed                  .    | .    .    .    .    .    .    .    .    
+Highest Temperature        493  | .    .    .    321  4    319  426  493  
+  Average Temperature      132  | .    .    .    105  3    104  261  135  
+  Received Heat Transfer   549  | .    6    .    54   6    72   48   363  
+  Effects                  15   | .    .    .    3    .    .    6    6    
+    Shutdowns              2    | .    .    .    .    .    .    1    1    
+    Energy Bleed           1    | .    .    .    .    .    .    .    1    
+    Interference           6    | .    .    .    3    .    .    3    .    
+    Matter Decay           1    | .    .    .    .    .    .    1    .    
+    Short Circuit          3    | .    .    .    .    .    .    .    3    
+    Damage (minor)         2    | .    .    .    .    .    .    1    1    
+Siege Activations          .    | .    .    .    .    .    .    .    .    
+Robots Corrupted           .    | .    .    .    .    .    .    .    .    
+  Combat Hostiles          .    | .    .    .    .    .    .    .    .    
+  Parts Fried              .    | .    .    .    .    .    .    .    .    
+  Impact Corruptions       .    | .    .    .    .    .    .    .    .    
+Robots Melted              .    | .    .    .    .    .    .    .    .    
+  Combat Hostiles          .    | .    .    .    .    .    .    .    .    
+  Parts Melted             8    | .    .    .    1    .    .    3    4    
+  Heat Transferred         3863 | .    .    .    871  .    792  494  1706 
+Parts Sabotaged            .    | .    .    .    .    .    .    .    .    
+Parts Stolen               .    | .    .    .    .    .    .    .    .    
+Parts Stripped             .    | .    .    .    .    .    .    .    .    
+Power Chain Reactions      1    | .    .    .    1    .    .    .    .    
+Missiles Intercepted       .    | .    .    .    .    .    .    .    .    
+
+ Alert                          | -11 -10 -10 -9  -9  -8  -7  -6  
+-------                    Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Peak Influence             589  | .   7   2   420 200 248 172 589 
+  Initial                  114  | .   .   2   .   114 66  58  72  
+  Average                  224  | .   2   2   208 172 160 77  434 
+Maximum Alert Level        2    | .   .   .   2   1   1   .   2   
+  Low Security (%)         52   | 100 100 100 43  34  70  100 15  
+  Level 1                  25   | .   .   .   46  65  29  .   13  
+  Level 2                  21   | .   .   .   10  .   .   .   70  
+  Level 3                  .    | .   .   .   .   .   .   .   .   
+  Level 4                  .    | .   .   .   .   .   .   .   .   
+  Level 5                  .    | .   .   .   .   .   .   .   .   
+  High Security            .    | .   .   .   .   .   .   .   .   
+  Max Security             .    | .   .   .   .   .   .   .   .   
+Squads Dispatched          7    | .   .   .   1   .   .   .   6   
+  Investigation            .    | .   .   .   .   .   .   .   .   
+  Extermination            .    | .   .   .   .   .   .   .   .   
+  Reinforcement            3    | .   .   .   1   .   .   .   2   
+  Assault                  1    | .   .   .   .   .   .   .   1   
+  Garrison                 3    | .   .   .   .   .   .   .   3   
+  Intercept                .    | .   .   .   .   .   .   .   .   
+Searches Triggered         .    | .   .   .   .   .   .   .   .   
+Construction Impeded       1    | .   .   .   .   .   .   .   1   
+Haulers Reinforced         .    | .   .   .   .   .   .   .   .   
+Active Scanning Responses  .    | .   .   .   .   .   .   .   .   
+Cargo Convoy Interrupts    .    | .   .   .   .   .   .   .   .   
+
+ Stealth                        | -11 -10 -10 -9  -9  -8  -7  -6  
+---------                  Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Distress Signals           3    | .   .   .   1   1   1   .   .   
+Communications Jammed      .    | .   .   .   .   .   .   .   .   
+  Distress Signals         .    | .   .   .   .   .   .   .   .   
+Times Spotted              67   | .   2   .   21  1   12  4   27  
+  Peak Tracking Total      7    | .   2   .   6   1   5   5   7   
+  Tactical Retreats        6    | .   .   .   2   .   .   1   3   
+
+ Traps                          | -11 -10 -10 -9  -9  -8  -7  -6  
+-------                    Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Traps Triggered            1    | .   .   .   .   .   .   .   1   
+  Indirectly               .    | .   .   .   .   .   .   .   .   
+Trap Hack Attempts         .    | .   .   .   .   .   .   .   .   
+  Triggered                .    | .   .   .   .   .   .   .   .   
+  Disarmed                 .    | .   .   .   .   .   .   .   .   
+  Reprogrammed             .    | .   .   .   .   .   .   .   .   
+  Reused                   .    | .   .   .   .   .   .   .   .   
+Traps Extracted            .    | .   .   .   .   .   .   .   .   
+  Installed                .    | .   .   .   .   .   .   .   .   
+  Triggered                .    | .   .   .   .   .   .   .   .   
+
+ Machines                       | -11 -10 -10 -9  -9  -8  -7  -6  
+----------                 Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Machines Disabled          16   | .   .   .   .   .   .   .   16  
+  Max in Single Turn       15   | .   .   .   .   .   .   .   15  
+  Garrison Access          2    | .   .   .   .   .   1   .   1   
+Machines Repaired          .    | .   .   .   .   .   .   .   .   
+Machines Sabotaged         .    | .   .   .   .   .   .   .   .   
+Overloaded Fab Kills       .    | .   .   .   .   .   .   .   .   
+
+ Hacking                        | -11 -10 -10 -9  -9  -8  -7  -6  
+---------                  Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Machines Accessed          14   | .   4   .   2   .   4   1   3   
+  Terminals                9    | .   4   .   2   .   2   .   1   
+  Fabricators              1    | .   .   .   .   .   .   1   .   
+  Repair Stations          .    | .   .   .   .   .   .   .   .   
+  Recycling Units          1    | .   .   .   .   .   1   .   .   
+  Scanalyzers              .    | .   .   .   .   .   .   .   .   
+  Garrison Access          3    | .   .   .   .   .   1   .   2   
+Total Hacks                19   | .   6   .   2   .   6   1   4   
+  Successful               7    | .   1   .   .   .   3   1   2   
+  Failed                   12   | .   5   .   2   .   3   .   2   
+    Catastrophic           3    | .   1   .   1   .   .   .   1   
+  Database Lockouts        .    | .   .   .   .   .   .   .   .   
+  Manual                   13   | .   6   .   2   .   4   1   .   
+  Terminals                13   | .   6   .   2   .   4   .   1   
+  Fabricators              1    | .   .   .   .   .   .   1   .   
+  Repair Stations          .    | .   .   .   .   .   .   .   .   
+  Recycling Units          1    | .   .   .   .   .   1   .   .   
+  Scanalyzers              .    | .   .   .   .   .   .   .   .   
+  Garrison Access          4    | .   .   .   .   .   1   .   3   
+Terminal Hacks             3    | .   1   .   .   .   1   .   1   
+  Open DSF                 1    | .   .   .   .   .   .   .   1   
+  Patrol Status            2    | .   1   .   .   .   1   .   .   
+Fabricator Hacks           1    | .   .   .   .   .   .   1   .   
+  Build                    1    | .   .   .   .   .   .   1   .   
+Repair Station Hacks       .    | .   .   .   .   .   .   .   .   
+Recycling Unit Hacks       1    | .   .   .   .   .   1   .   .   
+  Report Inventory         1    | .   .   .   .   .   1   .   .   
+Scanalyzer                 .    | .   .   .   .   .   .   .   .   
+Garrison Access Hacks      2    | .   .   .   .   .   1   .   1   
+  Seal Access              2    | .   .   .   .   .   1   .   1   
+Unauthorized Hacks         .    | .   .   .   .   .   .   .   .   
+  Terminals                .    | .   .   .   .   .   .   .   .   
+  Fabricators              .    | .   .   .   .   .   .   .   .   
+  Repair Stations          .    | .   .   .   .   .   .   .   .   
+  Recycling Units          .    | .   .   .   .   .   .   .   .   
+  Scanalyzers              .    | .   .   .   .   .   .   .   .   
+  Garrison Access          .    | .   .   .   .   .   .   .   .   
+Data Cores Recovered       .    | .   .   .   .   .   .   .   .   
+  Used                     .    | .   .   .   .   .   .   .   .   
+Hacking Detections         6    | .   2   .   2   .   1   .   1   
+  Full Trace Events        .    | .   .   .   .   .   .   .   .   
+  Feedback Events          .    | .   .   .   .   .   .   .   .   
+  Feedback Blocked         .    | .   .   .   .   .   .   .   .   
+Robot Schematics Acquired  .    | .   .   .   .   .   .   .   .   
+  Robots Built             .    | .   .   .   .   .   .   .   .   
+    Authchips              .    | .   .   .   .   .   .   .   .   
+    Time                   .    | .   .   .   .   .   .   .   .   
+  Total Robot Build Rating .    | .   .   .   .   .   .   .   .   
+Part Schematics Acquired   .    | .   .   .   .   .   .   .   .   
+  Parts Built              2    | .   .   .   .   .   .   2   .   
+    Authchips              .    | .   .   .   .   .   .   .   .   
+    Time                   95   | .   .   .   .   .   .   95  .   
+  Total Part Build Rating  10   | .   .   .   .   .   .   10  .   
+Parts Repaired             .    | .   .   .   .   .   .   .   .   
+  Time                     .    | .   .   .   .   .   .   .   .   
+Parts Recycled             .    | .   .   .   .   .   .   .   .   
+  Recycled Matter          .    | .   .   .   .   .   .   .   .   
+  Retrieved Matter         .    | .   .   .   .   .   .   .   .   
+  Retrieved Components     .    | .   .   .   .   .   .   .   .   
+Parts Scanalyzed           .    | .   .   .   .   .   .   .   .   
+  Part Schematics Acquired .    | .   .   .   .   .   .   .   .   
+  Parts Damaged            .    | .   .   .   .   .   .   .   .   
+
+ Bothacking                     | -11 -10 -10 -9  -9  -8  -7  -6  
+------------               Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Used RIF Installer         .    | .   .   .   .   .   .   .   .   
+Robots Hacked              .    | .   .   .   .   .   .   .   .   
+  Non-combat               .    | .   .   .   .   .   .   .   .   
+  Combat                   .    | .   .   .   .   .   .   .   .   
+Robot Hacks Applied        .    | .   .   .   .   .   .   .   .   
+Relay Couplers Released    .    | .   .   .   .   .   .   .   .   
+Fabnet Peak Effective %    .    | .   .   .   .   .   .   .   .   
+Robots Rewired             .    | .   .   .   .   .   .   .   .   
+Allies Hacked              .    | .   .   .   .   .   .   .   .   
+Hacks Repelled             .    | .   .   .   .   .   .   .   .   
+
+ Allies                         | -11 -10 -10 -9  -9  -8  -7  -6  
+--------                   Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Total Allies               2    | .   .   2   .   .   .   .   .   
+  Largest Group            2    | .   .   2   .   .   .   .   .   
+  Highest-Rated Group      52   | .   .   52  .   .   .   .   .   
+  Highest-Rated Ally       31   | .   .   31  .   .   .   .   .   
+Total Orders               .    | .   .   .   .   .   .   .   .   
+Ally Attacks               .    | .   .   .   .   .   .   .   .   
+  Total Damage             .    | .   .   .   .   .   .   .   .   
+  Kills                    .    | .   .   .   .   .   .   .   .   
+Allies Corrupted           .    | .   .   .   .   .   .   .   .   
+Allies Melted              .    | .   .   .   .   .   .   .   .   
+
+ Intel                          | -11 -10 -10 -9  -9  -8  -7  -6  
+-------                    Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Robot Analysis Total       .    | .   .   .   .   .   .   .   .   
+Derelict Logs Recovered    2    | .   .   .   .   2   .   .   .   
+Drone Launches             .    | .   .   .   .   .   .   .   .   
+  Drone Recoveries         .    | .   .   .   .   .   .   .   .   
+
+ Exploration                    | -11 -10 -10 -9  -9  -8  -7  -6  
+-------------              Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Turns Passed               2454 | 44  137 29  595 146 561 272 670 
+Spaces Moved               2048 | 37  163 37  505 151 458 140 557 
+  Core                     104  | 1   .   .   .   .   .   .   103 
+  Treads                   .    | .   .   .   .   .   .   .   .   
+  Legs                     13   | .   .   .   .   .   .   .   13  
+  Wheels                   1931 | 36  163 37  505 151 458 140 441 
+  Hover                    .    | .   .   .   .   .   .   .   .   
+  Flight                   .    | .   .   .   .   .   .   .   .   
+  Fastest Speed            50   | 50  80  80  80  86  93  90  50  
+  Average Speed            92   | 84  80  80  92  90  100 90  90  
+  Slowest Speed            850  | 95  80  80  101 101 101 90  850 
+  Overloaded Moves         .    | .   .   .   .   .   .   .   .   
+  Propulsion Burnouts      .    | .   .   .   .   .   .   .   .   
+  Robots Hopped            .    | .   .   .   .   .   .   .   .   
+  Cave-ins Triggered       .    | .   .   .   .   .   .   .   .   
+Exploration Rate (%)       22   | 3   30  12  40  44  34  3   17  
+  Regions Visited          7
+    Branch Regions         2
+  Pre-discovered Areas     1    | .   .   1   .   .   .   .   .   
+  Known Exits Taken        1    | .   .   .   .   .   1   .   .   
+  Unknown Exits Taken      6    | 1   1   1   1   1   .   1   .   
+Scrap Searched             2    | .   .   .   .   2   .   .   .   
+Spaces Dug                 .    | .   .   .   .   .   .   .   .   
+Terrain Destroyed          100  | .   .   .   3   31  .   .   66  
+  Melee                    .    | .   .   .   .   .   .   .   .   
+  Projectile               1    | .   .   .   .   .   .   .   1   
+  AOE                      99   | .   .   .   3   31  .   .   65  
+Terrain Rammed             .    | .   .   .   .   .   .   .   .   
+  Walls Destroyed          .    | .   .   .   .   .   .   .   .   
+  Machines Disabled        .    | .   .   .   .   .   .   .   .   
+
+ Actions                        | -11 -10 -10 -9  -9  -8  -7  -6  
+---------                  Run  | Jun Mat Min Mat Min Mat Fac Fac 
+Total                      2415 | 46  167 36  567 156 519 272 652 
+  Wait                     157  | .   .   .   11  .   19  108 19  
+  Move                     2041 | 36  162 36  504 150 457 139 557 
+  Hop                      .    | .   .   .   .   .   .   .   .   
+  Pick Up                  27   | 4   2   .   3   1   7   4   6   
+  Fast Attach              20   | 6   1   .   4   .   3   1   5   
+  Attach                   17   | .   .   .   2   .   2   3   10  
+  Detach                   8    | .   .   .   3   .   3   1   1   
+  Swap                     27   | .   2   .   2   2   3   2   16  
+  Drop                     16   | .   .   .   1   .   6   6   3   
+  Fire                     94   | .   .   .   37  3   19  8   27  
+  Melee                    .    | .   .   .   .   .   .   .   .   
+  Ram                      .    | .   .   .   .   .   .   .   .   
+  Kick                     .    | .   .   .   .   .   .   .   .   
+  Crush                    .    | .   .   .   .   .   .   .   .   
+  Escape Stasis            8    | .   .   .   .   .   .   .   8   
+  Rewire                   .    | .   .   .   .   .   .   .   .   
+  Trap                     .    | .   .   .   .   .   .   .   .   
+  Miscellaneous            .    | .   .   .   .   .   .   .   .   
+
+ Route 
+-------
+-11/Junkyard
+-10/Materials
+-10/Mines
+-9/Materials
+-9/Mines
+-8/Materials (discovered 2 exits: *Fac x2)
+-7/Factory
+-6/Factory
+
+ History 
+---------
+ Turn | Location      | Event
+   10 | -11/Junkyard  | Discovered new exit (range 16)
+   45 | -11/Junkyard  | Entered Materials
+  177 | -10/Materials | Discovered new exit (range 7)
+  182 | -10/Materials | Entered Mines
+  194 | -10/Mines     | Discovered new exit (range 15)
+  196 | -10/Mines     | Learned location of Storage (-7)
+  211 | -10/Mines     | Entered Materials
+  211 | -9/Materials  | Evolved 2 slots: Propulsion x1, Utility x1
+  300 | -9/Materials  | Build established: Mutant
+  797 | -9/Materials  | Discovered new exit (range 9)
+  806 | -9/Materials  | Entered Mines
+  807 | -9/Mines      | Assembled infested the area
+  814 | -9/Mines      | Learned location of 1 exit from Materials
+  831 | -9/Mines      | Received a Rocket Launcher from a helpful Derelict
+  929 | -9/Mines      | Discovered new exit (range 15)
+  948 | -9/Mines      | Learned Materials security intel
+  952 | -9/Mines      | Entered Materials
+  952 | -8/Materials  | Evolved 2 slots: Utility x1, Weapon x1
+  953 | -8/Materials  | Identified exit to Factory
+ 1316 | -8/Materials  | Build established: Gunner
+ 1506 | -8/Materials  | Discovered exit to Factory (range 8)
+ 1513 | -8/Materials  | Entered Factory
+ 1513 | -7/Factory    | Evolved 2 slots: Propulsion x1, Utility x1
+ 1692 | -7/Factory    | Fabricated Fission Core (x2)
+ 1705 | -7/Factory    | Discovered new exit (range 10)
+ 1785 | -7/Factory    | Entered another Factory area
+ 1785 | -6/Factory    | Evolved 2 slots: Power x1, Propulsion x1
+ 2135 | -6/Factory    | First assault squad dispatched
+ 2246 | -6/Factory    | Garrison activated, responded to threat
+ 2341 | -6/Factory    | Lost 8 parts (2p4n1u1w)
+ 2359 | -6/Factory    | Released all parts (11)
+ 2423 | -6/Factory    | Released all parts (4)
+ 2455 | -6/Factory    | Self-destructed
+
+ Last Messages 
+---------------
+02359_ Released Broken Targeting Computer.
+02359_ Released Lrg. Storage Unit.
+02359_ Released Broken Wheel.
+02359_ Released Flak Cannon.
+02359_ Released Fission Core.
+02359_ Released Adv. Assault Cannon.
+02359_ Released Sml. Storage Unit.
+02360_ R-10 Processor collects Adv. Beam Rifle.
+02360_ Acquired 60 matter.
+02360_ Acquired 27 matter.
+02361_ Acquired 6 matter.
+02362_ K-01 Serf collects debris.
+02363_ R-10 Processor collects Flak Cannon.
+02365_ K-01 Serf collects debris.
+02378_ Acquired Imp. Shield Generator.
+02382_ Acquired Imp. Deuterium Engine. <x2>
+02396_ Acquired VSS Leg. <x3>
+02423_ Released VSS Leg.
+02423_ Released Imp. Shield Generator.
+02423_ Released Imp. Deuterium Engine. <x2>
+
+ Map 
+-----
++----------------------------------------------------+
+|       ???###/#######            !    ????????????? |
+|       ?????   ?????#                 ????????????? |
+|       ?????   ?????#    #        ""??????????????? |
+|       ????    !????#    #            ????????????? |
+|       ????     ????#    #?? ?    ""??????????????? |
+|       ??? """ ""??##+##+#??????   ???????????????? |
+|       ??? """ ""??#     #????????????????????????? |
+|       ??# """ """?#     #????????????????????????? |
+|       ??#       ??#     #????????????????????????? |
+|       ??##???#+#### """ #????????????????????????? |
+|       ???????#   ## """ #????????????????????????? |
+|       ???????#    + """ #????????????????????????? |
+|       ???????#   ##     #????????????????????????? |
+|       ??????##   ####+###????????????????????????? |
+|       ??????#    ##     #????????????????????????? |
+|       #######T       T  #   ?????????????????????? |
+|       #    ###      ""          ?????????????????? |
+|       #    #?#          ###???????????    ???????? |
+|       #    #?#   ##     #?????????         ??????? |
+|       #    ###   ####g########             ??????? |
+|       #    +     +       [ +               ??????? |
+|       #    #######         #               ??????? |
+|       #    #?????#     """ #               ??????? |
+|       #    #?????#     """ #?             ???????? |
+|       #    #?????# ""  """ #?             ???????? |
+|       ######?????# "T    @ #??           ????????? |
+|       ???????????# ""     [#??           ????????? |
+|       ???????????#         #???          ????????? |
+|       ???????????###########???  #######?????????? |
+|       ?????????????????????????? #???????????????? |
+|       ?????????????????????????? #???????????????? |
+|       ???????????????????????????#???????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
+|       ???????????????????????????????????????????? |
++----------------------------------------------------+
+
+ Best States
+-------------
+Heat Dissipation           44
+Energy Generation          31
+Energy Capacity            720
+Matter Stores              300
+Matter Capacity            300
+Sight Range                16
+Terrain Scan Density       10
+Armor Coverage             300
+Resistance: KI             20
+Resistance: TH             20
+Resistance: EX             20
+Resistance: EM             20
+Resistance: I              20
+Resistance: S              20
+Resistance: P              20
+Evasion (%)                50
+Targeting Accuracy         5
+Offensive Hacking          10
+
+ Item Schematics 
+-----------------
+None
+
+ Robot Schematics 
+------------------
+None
+
+ Fabricated
+------------
+ Fission Core | x2 | -7/Factory | Preloaded
+
+ Alien Tech Used 
+-----------------
+None
+
+ Achievements 
+--------------
+It Was An Accident, I Swear
+
+ Challenges 
+------------
+None
+
+ Game 
+------
+Seed              RagnarokMyomerAxe
+  Manual?         0
+Play Time         00:38:22
+  Cumulative      30.4 hours
+  Start           2023.06.09 @ 15:48:36
+  End             2023.06.11 @ 15:23:11
+Sessions          3
+Manual Loads      0
+Difficulty        Adventurer
+Special Mode      None
+Game No.          49
+  Rogue           28
+  Adventurer      18
+  Explorer        3
+Win Type          -
+  Total           0
+  Types           0/0/0/0/0/0/0/0/0
+Lore%             19
+Gallery%          29
+Achievement%      20
+Wizard Run        0
+
+ Options 
+---------
+ASCII             0
+Keyboard          1
+Movement          Vi
+Keybinds          0
+Fullscreen        2
+Font              18/X11
+Map View          76x50
+Tactical HUD      1
+Map Filters       NONE
+Filters           NONE
+Steam             1
+
+
+RUN: e203f5be-c36e-4ce0-a070-cd89c2fc1a4a
