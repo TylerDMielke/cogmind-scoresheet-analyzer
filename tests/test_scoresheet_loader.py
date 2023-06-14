@@ -6,9 +6,9 @@ TEST_SCORESHEET_DIRECTORY: str = "test_data"
 
 
 def test_scoresheet_load():
-    import pdb; pdb.set_trace()
     scoresheet_loader: ScoresheetLoader = ScoresheetLoader(scoresheet_directory=TEST_SCORESHEET_DIRECTORY)
 
+    scoresheet_loader.load_scoresheets()
     assert len(scoresheet_loader.scoresheets) == 3
 
     scoresheet: Scoresheet = scoresheet_loader.scoresheets[0]
