@@ -1,3 +1,7 @@
+# Editor Files
+.vscode/
+*.code-workspace
+
 # Cache files
 .pytest_cache/
 __pycache__/
