@@ -1,3 +1,4 @@
+from io import TextIOWrapper
 from pathlib import Path
 from typing import Optional
 
@@ -34,22 +35,75 @@ class ScoresheetLoader:
             raise ScoresheetDirNotFoundError("Could not find scoresheet directory")
         
         for scoresheet in self._scoresheet_dir.glob("*.txt"):
-            self._load_scoresheet(scoresheet=scoresheet)
+            self.scoresheets.append(self._load_scoresheet(scoresheet_path=scoresheet))
     
-    def _load_scoresheet(self, scoresheet: Path) -> Scoresheet:
-        player: Optional[str] = None
-        result: Optional[str] = None
-        bonus: Optional[Bonus] = None
-        cogmind: Optional[Cogmind] = None
-        performance: Optional[Performance] = None
+    def _load_scoresheet(self, scoresheet_path: Path) -> Scoresheet:
+        scoresheet = Scoresheet()
 
-        with open(scoresheet, "r") as scoresheet_fh:
+        with open(scoresheet_path, "r") as scoresheet_fh:
             for line in scoresheet_fh:
+                if len(line.strip()) == 0:
+                    continue
                 if "player" in line.lower():
-                    player = line[7:]
+                    scoresheet.player = line[7:].strip()
                 elif "result" in line.lower():
-                    result = line[7:]
-                else:
-                    logger.info(f"No keywords found in: {scoresheet} on line: {line}")
+                    scoresheet.result = line[7:].strip()
+                elif "performance" in line.lower():
+                    scoresheet.performance = self._load_performance(scoresheet_filehandle=scoresheet_fh)
+                elif "bonus" in line.lower():
+                    scoresheet.bonus = self._load_bonus(scoresheet_filehandle=scoresheet_fh)
 
-        return Scoresheet(player=player, result=result, bonus=bonus, cogmind=cogmind, performance=performance)
+        return scoresheet
+
+    def _load_performance(self, scoresheet_filehandle: TextIOWrapper) -> Performance:
+        performance = Performance()
+
+        for line in scoresheet_filehandle:
+            match line.lower().split():
+                case ["evolutions", count, score]:
+                    performance.evolutions = int(count[1:-1])
+                    performance.evolutions_score = int(score)
+                case ["regions", "visited", count, score]:
+                    performance.regions_visited = int(count[1:-1])
+                    performance.regions_visited_score = int(score)
+                case ["robots", "destroyed", count, score]:
+                    performance.robots_destroyed = int(count[1:-1])
+                    performance.robots_destroyed_score = int(score)
+                case["value", "destroyed", _, score]:
+                    performance.value_destroyed_score = int(score)
+                case ["prototype", "ids", count, score]:
+                    performance.prototype_ids = int(count[1:-1])
+                    performance.prototype_ids_score = int(score)
+                case ["alien", "tech", "used", count, score]:
+                    performance.alien_tech_used = int(count[1:-1])
+                    performance.alien_tech_used_score = int(score)
+                case ["bonus", _, score]:
+                    performance.bonus_score = int(score)
+                case ["total", "score:", score]:
+                    performance.total_score = int(score)
+                    return performance
+
+    def _load_bonus(self, scoresheet_filehandle: TextIOWrapper) -> Bonus:
+        bonus = Bonus()
+        bonus.bonuses = []
+
+        for line in scoresheet_filehandle:
+            if len(line.strip()) == 0:
+                return bonus
+            elif "---" in line.strip():
+                continue
+
+            split_line: list[str] = line.split()
+            bonus_name: str = ""
+            bonus_score: Optional[int] = None
+            for section in split_line:
+                if section.isnumeric():
+                    bonus_score = int(section)
+                else:
+                    bonus_name += section
+
+            bonus.bonuses.append((bonus_name, bonus_score))
+
+
+    def _load_cogmind(self) -> Cogmind:
+        pass
