@@ -1,4 +1,5 @@
 # Editor Files
+.idea/
 .vscode/
 *.code-workspace
 
