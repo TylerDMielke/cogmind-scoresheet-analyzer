@@ -11,6 +11,7 @@ class Bonus:
         total_bonus_score: int = 0 
         for bonus in self.bonuses:
             total_bonus_score = total_bonus_score + bonus[1]
+        return total_bonus_score
 
 
 @dataclass
@@ -32,17 +33,24 @@ class Performance:
 
 @dataclass
 class Cogmind:
-    core_integrity: Optional[tuple[int, int]] = None
-    matter: Optional[tuple[int, int]] = None
-    energy: Optional[tuple[int, int]] = None
+    core_integrity_final: Optional[int] = None
+    core_integrity_max: Optional[int] = None
+    matter_final: Optional[int] = None
+    matter_max: Optional[int] = None
+    energy_final: Optional[int] = None
+    energy_max: Optional[int] = None
     system_corruption: Optional[float] = None
-    temperature: Optional[tuple[str, int]] = None
-    movement: Optional[tuple[str, int]] = None
-    location: Optional[tuple[int, str]] = None
+    temperature_description: Optional[str] = None
+    temperature_value: Optional[int] = None
+    movement_type: Optional[str] = None
+    movement_value: Optional[int] = None
+    location_offset: Optional[int] = None
+    location_description: Optional[str] = None
 
 
 @dataclass
 class Scoresheet:
+    run_date: Optional[str] = None  # TODO: Should this be a Datetime?
     player: Optional[str] = None
     result: Optional[str] = None
     performance: Optional[Performance] = None
