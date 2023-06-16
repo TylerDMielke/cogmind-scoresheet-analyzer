@@ -30,9 +30,6 @@ class CogmindScoresheetAnalyzerApp(App):
         """An action to toggle dark mode."""
         self.dark = not self.dark
 
-    def action_exit_app(self) -> None:
-        """Close the application."""
-
     def _create_tabs(self) -> Tabs:
         tab_list: list[Tab] = []
         scoresheets: list[Scoresheet] = self.scoresheet_loader.load_scoresheets()
