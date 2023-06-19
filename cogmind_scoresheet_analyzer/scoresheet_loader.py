@@ -25,7 +25,7 @@ class ScoresheetLoader:
             for line in scoresheet_fh:
                 if first_line:
                     _, date_and_time = line.split("//")
-                    scoresheet.run_date = date_and_time
+                    scoresheet.run_date = date_and_time.split("\n")[0]
                 elif len(line.strip()) == 0:
                     continue
                 elif "player" in line.lower():
@@ -41,7 +41,6 @@ class ScoresheetLoader:
                 first_line = False
 
         return scoresheet
-
 
     def _load_performance(self, scoresheet_filehandle: TextIOWrapper) -> Performance:
         performance = Performance()
@@ -136,13 +135,17 @@ class BulkScoresheetLoader:
             logger.debug(f"Searching for scorsheets in: {scoresheet_directory}")
             self.scoresheet_directory = Path(scoresheet_directory)
 
-    def load_scoresheets(self) -> list[Scoresheet]:
+        self.scoresheets: dict[str, Scoresheet] = self._load_scoresheets()
+
+    def _load_scoresheets(self) -> dict[str, Scoresheet]:
+        scoresheets: dict[str, Scoresheet] = {}
+
         if not self.scoresheet_directory.exists():
             raise ScoresheetDirNotFoundError("Could not find scoresheet directory")
 
-        loaded_scoresheets: list[Scoresheet] = []
         for scoresheet_path in self.scoresheet_directory.glob("*.txt"):
             scoresheet_loader: ScoresheetLoader = ScoresheetLoader(scoresheet_path=scoresheet_path)
-            loaded_scoresheets.append(scoresheet_loader.load_scoresheet())
+            scoresheet: Scoresheet = scoresheet_loader.load_scoresheet()
+            scoresheets[f"{scoresheet.player}{scoresheet.run_date}"] = scoresheet
 
-        return loaded_scoresheets
+        return scoresheets

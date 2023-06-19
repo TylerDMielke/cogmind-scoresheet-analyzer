@@ -1,17 +1,18 @@
-from textual.app import ComposeResult
-from textual.widgets import Footer, Header, Label, Static
+from textual.app import ComposeResult, Screen
+from textual.widgets import Footer, Header, Label
 
 from cogmind_scoresheet_analyzer.scoresheet import Scoresheet
 
 
-class ScoreSheet(Static):
+class ScoresheetView(Screen):
     def __init__(self, scoresheet: Scoresheet):
         super().__init__()
         self.scoresheet = scoresheet
+        self.TITLE = scoresheet.run_date
 
     BINDINGS = [
         ("d", "toggle_dark", "Toggle dark mode"),
-        ("q", "q", "Quit"),
+        ("q", "dismiss", "Go Back"),
     ]
 
     def compose(self) -> ComposeResult:

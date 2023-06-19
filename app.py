@@ -3,9 +3,13 @@ from pathlib import Path
 from textual.app import App, ComposeResult
 import textual.widgets as widgets
 
-from cogmind_scoresheet_analyzer.config import DEV_SCORESHEET_DIRECTORY
+from cogmind_scoresheet_analyzer.config import APP_NAME, DEV_SCORESHEET_DIRECTORY
+from cogmind_scoresheet_analyzer.logging_config import get_logger
 from cogmind_scoresheet_analyzer.scoresheet import Scoresheet
 from cogmind_scoresheet_analyzer.scoresheet_loader import BulkScoresheetLoader
+from cogmind_scoresheet_analyzer.scoresheet_view import ScoresheetView
+
+logger = get_logger(APP_NAME)
 
 
 class CogmindScoresheetAnalyzerApp(App):
@@ -31,11 +35,20 @@ class CogmindScoresheetAnalyzerApp(App):
         """An action to toggle dark mode."""
         self.dark = not self.dark
 
+    def on_list_view_selected(self, selected: widgets.ListView.Selected) -> None:
+        """Select item currently under cursor."""
+        selected_scoresheet: widgets.ListItem = selected.item
+        scoresheet: Scoresheet = self.scoresheet_loader.scoresheets[selected_scoresheet.id]
+        scoresheet_view: ScoresheetView = ScoresheetView(scoresheet=scoresheet)
+        self.push_screen(scoresheet_view)
+
     def _create_scoresheet_list(self) -> widgets.ListView:
         items: list[widgets.ListItem] = []
-        scoresheets: list[Scoresheet] = self.scoresheet_loader.load_scoresheets()
-        for scoresheet in scoresheets:
-            items.append(widgets.ListItem(widgets.Label(scoresheet.run_date)))
+        scoresheets: dict[str, Scoresheet] = self.scoresheet_loader.scoresheets
+        for scoresheet_id, scoresheet in scoresheets.items():
+            list_item_label: widgets.Label = widgets.Label(scoresheet.run_date)
+            list_item: widgets.ListItem = widgets.ListItem(list_item_label, id=scoresheet_id)
+            items.append(list_item)
         return widgets.ListView(*items)
 
 if __name__ == "__main__":
