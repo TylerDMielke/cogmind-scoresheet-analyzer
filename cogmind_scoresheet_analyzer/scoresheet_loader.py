@@ -2,12 +2,11 @@ from io import TextIOWrapper
 from pathlib import Path
 from typing import Optional
 
-from cogmind_scoresheet_analyzer.config import APP_NAME
 from cogmind_scoresheet_analyzer.exceptions import ScoresheetDirNotFoundError
 from cogmind_scoresheet_analyzer.logging_config import get_logger
 from cogmind_scoresheet_analyzer.scoresheet import Bonus, Cogmind, Performance, Scoresheet
 
-logger = get_logger(f"{APP_NAME}-{__name__}")
+logger = get_logger(__name__)
 
 
 class ScoresheetLoader:

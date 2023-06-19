@@ -9,7 +9,7 @@ TEST_SCORESHEET: str = "Qwze-230611-152311-1-6006.txt"
 
 
 def test_scoresheet_load_player_result():
-    scoresheet_path: Path = Path(f"{TEST_SCORESHEET_DIRECTORY}/{TEST_SCORESHEET}")
+    scoresheet_path: Path = Path(f"{TEST_SCORESHEET_DIRECTORY}/{TEST_SCORESHEET}").absolute()
     scoresheet_loader: ScoresheetLoader = ScoresheetLoader(scoresheet_path=scoresheet_path)
 
     scoresheet: Scoresheet = scoresheet_loader.load_scoresheet()
@@ -18,7 +18,7 @@ def test_scoresheet_load_player_result():
 
 
 def test_scoresheet_load_performance():
-    scoresheet_path: Path = Path(f"{TEST_SCORESHEET_DIRECTORY}/{TEST_SCORESHEET}")
+    scoresheet_path: Path = Path(f"{TEST_SCORESHEET_DIRECTORY}/{TEST_SCORESHEET}").absolute()
     scoresheet_loader: ScoresheetLoader = ScoresheetLoader(scoresheet_path=scoresheet_path)
 
     scoresheet: Scoresheet = scoresheet_loader.load_scoresheet()
@@ -32,7 +32,7 @@ def test_scoresheet_load_performance():
 
 
 def test_scoresheet_load_bonus():
-    scoresheet_path: Path = Path(f"{TEST_SCORESHEET_DIRECTORY}/{TEST_SCORESHEET}")
+    scoresheet_path: Path = Path(f"{TEST_SCORESHEET_DIRECTORY}/{TEST_SCORESHEET}").absolute()
     scoresheet_loader: ScoresheetLoader = ScoresheetLoader(scoresheet_path=scoresheet_path)
 
     scoresheet: Scoresheet = scoresheet_loader.load_scoresheet()
@@ -42,7 +42,7 @@ def test_scoresheet_load_bonus():
 
 
 def test_scoresheet_load_cogmind():
-    scoresheet_path: Path = Path(f"{TEST_SCORESHEET_DIRECTORY}/{TEST_SCORESHEET}")
+    scoresheet_path: Path = Path(f"{TEST_SCORESHEET_DIRECTORY}/{TEST_SCORESHEET}").absolute()
     scoresheet_loader: ScoresheetLoader = ScoresheetLoader(scoresheet_path=scoresheet_path)
 
     scoresheet: Scoresheet = scoresheet_loader.load_scoresheet()
@@ -63,10 +63,10 @@ def test_scoresheet_load_cogmind():
 
 
 def test_bulk_scoresheet_load():
-    scoresheet_directory: Path = Path(TEST_SCORESHEET_DIRECTORY)
+    scoresheet_directory: Path = Path(TEST_SCORESHEET_DIRECTORY).absolute()
     bulk_scoresheet_loader: BulkScoresheetLoader = BulkScoresheetLoader(scoresheet_directory=scoresheet_directory)
 
-    loaded_scoresheets: list[Scoresheet] = bulk_scoresheet_loader.load_scoresheets()
+    loaded_scoresheets: dict[str, Scoresheet] = bulk_scoresheet_loader.scoresheets
     assert len(loaded_scoresheets)
-    for scoresheet in loaded_scoresheets:
+    for scoresheet in loaded_scoresheets.values():
         assert scoresheet.player == "Qwze"

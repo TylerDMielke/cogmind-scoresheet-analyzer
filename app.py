@@ -3,11 +3,11 @@ from pathlib import Path
 from textual.app import App, ComposeResult
 import textual.widgets as widgets
 
-from cogmind_scoresheet_analyzer.config import APP_NAME, DEV_SCORESHEET_DIRECTORY
+from cogmind_scoresheet_analyzer.config import APP_NAME, CSS_DIR, DEV_SCORESHEET_DIRECTORY
 from cogmind_scoresheet_analyzer.logging_config import get_logger
 from cogmind_scoresheet_analyzer.scoresheet import Scoresheet
 from cogmind_scoresheet_analyzer.scoresheet_loader import BulkScoresheetLoader
-from cogmind_scoresheet_analyzer.scoresheet_view import ScoresheetView
+from cogmind_scoresheet_analyzer.scoresheet_screen import ScoresheetScreen
 
 logger = get_logger(APP_NAME)
 
@@ -23,6 +23,7 @@ class CogmindScoresheetAnalyzerApp(App):
         ("d", "toggle_dark", "Toggle dark mode"),
         ("q", "quit", "Close application"),
     ]
+    CSS_PATH = str(CSS_DIR / "app.css")
     TITLE = "Cogmind Scoresheet Analyzer"
 
     def compose(self) -> ComposeResult:
@@ -39,7 +40,7 @@ class CogmindScoresheetAnalyzerApp(App):
         """Select item currently under cursor."""
         selected_scoresheet: widgets.ListItem = selected.item
         scoresheet: Scoresheet = self.scoresheet_loader.scoresheets[selected_scoresheet.id]
-        scoresheet_view: ScoresheetView = ScoresheetView(scoresheet=scoresheet)
+        scoresheet_view: ScoresheetScreen = ScoresheetScreen(scoresheet=scoresheet)
         self.push_screen(scoresheet_view)
 
     def _create_scoresheet_list(self) -> widgets.ListView:
