@@ -1,3 +1,11 @@
 #scoresheet_header {
     color: red;
+    text-style: bold;
+    text-align: center;
+}
+
+#result {
+    color: green;
+    text-style: italic;
+    text-align: center;
 }

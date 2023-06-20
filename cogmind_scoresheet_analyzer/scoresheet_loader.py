@@ -24,7 +24,7 @@ class ScoresheetLoader:
             for line in scoresheet_fh:
                 if first_line:
                     _, date_and_time = line.split("//")
-                    scoresheet.run_date = date_and_time.split("\n")[0]
+                    scoresheet.run_date = (date_and_time.split("\n")[0]).strip()
                 elif len(line.strip()) == 0:
                     continue
                 elif "player" in line.lower():
