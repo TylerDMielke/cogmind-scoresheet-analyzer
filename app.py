@@ -20,7 +20,6 @@ class CogmindScoresheetAnalyzerApp(App):
         self.scoresheet_loader: BulkScoresheetLoader = BulkScoresheetLoader(Path(DEV_SCORESHEET_DIRECTORY))
 
     BINDINGS = [
-        ("d", "toggle_dark", "Toggle dark mode"),
         ("q", "quit", "Close application"),
     ]
     CSS_PATH = str(CSS_DIR / "app.css")

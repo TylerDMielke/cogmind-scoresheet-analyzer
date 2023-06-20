@@ -11,7 +11,6 @@ class ScoresheetScreen(Screen):
         self.scoresheet = scoresheet
 
     BINDINGS = [
-        ("d", "toggle_dark", "Toggle dark mode"),
         ("q", "dismiss", "Go Back"),
     ]
 
