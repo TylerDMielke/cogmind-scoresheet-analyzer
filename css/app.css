@@ -1,11 +1,23 @@
-#scoresheet_header {
-    color: red;
+Center {
+    border: hkey green;
+    content-align: center top;
     text-style: bold;
-    text-align: center;
 }
 
-#result {
-    color: green;
-    text-style: italic;
-    text-align: center;
+#performance_container {
+    border: blue;
+    border-title-color: slategray;
+    height: auto;
+}
+
+#bonus_container {
+    border: lightcoral;
+    border-title-color: slategray;
+    height: auto;
+}
+
+#cogmind_container {
+    border: purple;
+    border-title-color: slategray;
+    height: auto;
 }

@@ -47,7 +47,7 @@ class CogmindScoresheetAnalyzerApp(App):
         items: list[widgets.ListItem] = []
         scoresheets: dict[str, Scoresheet] = self.scoresheet_loader.scoresheets
         for scoresheet_id, scoresheet in scoresheets.items():
-            list_item_label: widgets.Label = widgets.Label(scoresheet.run_date)
+            list_item_label: widgets.Label = widgets.Label(f"{scoresheet.player}: {scoresheet.run_date}")
             list_item: widgets.ListItem = widgets.ListItem(list_item_label, id=scoresheet_id)
             items.append(list_item)
         return widgets.ListView(*items)
