@@ -19,9 +19,9 @@ Utility application for viewing morgue files produced after finishing a game of 
      ```
 
 ## Screenshots
-![scoresheet_screen][2]
 ![scoresheet_browser_screen][3]
+![scoresheet_screen][2]
 
 [1]: https://www.gridsagegames.com/cogmind/
-[2]: documentation/screenshots/scoresheet_screen_2023-06-20
-[3]: documentation/screenshots/scoresheet_browser_screen_2023-06-20
+[2]: documentation/screenshots/scoresheet_screen_2023-06-20.png
+[3]: documentation/screenshots/scoresheet_browser_screen_2023-06-20.png
