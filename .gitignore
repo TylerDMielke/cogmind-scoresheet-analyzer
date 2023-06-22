@@ -6,3 +6,6 @@
 # Cache files
 .pytest_cache/
 __pycache__/
+
+# Data files
+data/
