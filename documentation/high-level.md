@@ -1,5 +1,6 @@
 # High Level Design
 
+## Graphs/Diagrams
 ``` mermaid
 graph LR
     single_scoresheet[ScoreSheet.txt]
